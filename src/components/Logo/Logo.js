@@ -14,4 +14,4 @@ const Logo = () => {
     )
 }
 
-export default Navigation;
+export default Logo;
