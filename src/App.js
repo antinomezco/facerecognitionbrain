@@ -31,7 +31,7 @@ class App extends Component() {
     }
 
     onButtonSubmit = () =>{
-        console.log(click);
+        console.log('click');
     }
 
     render(){
