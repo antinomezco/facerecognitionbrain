@@ -20,9 +20,9 @@ const particlesOptions = {
 
 function App() {
     constructor(){
-        super()
+        super();
         this.state = {
-            input: ''
+            input: '',
         }
     }
 
