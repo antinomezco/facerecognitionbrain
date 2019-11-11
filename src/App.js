@@ -34,19 +34,21 @@ class App extends Component() {
         console.log(click);
     }
 
-  return (
-    <div className="App">
-        <Particles className='particles'
-              params={particlesOptions}
-        />
-        <Navigation/>
-        <Logo />
-        <Rank />
-        <ImageLinkForm onInputChange={this.onInputChange}
-        onButtonSubmit={this.onButtonSubmit}/>
-        {/*<FaceRecognition />*/}
-    </div>
-  );
+    render(){
+      return (
+        <div className="App">
+            <Particles className='particles'
+                  params={particlesOptions}
+            />
+            <Navigation/>
+            <Logo />
+            <Rank />
+            <ImageLinkForm onInputChange={this.onInputChange}
+            onButtonSubmit={this.onButtonSubmit}/>
+            {/*<FaceRecognition />*/}
+        </div>
+      );
+    }
 }
 
 export default App;
