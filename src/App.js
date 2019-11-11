@@ -22,7 +22,7 @@ function App() {
     constructor(){
         super()
         this.state = {
-            input: '';
+            input: ''
         }
     }
 
