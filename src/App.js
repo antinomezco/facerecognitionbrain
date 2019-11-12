@@ -18,7 +18,7 @@ const particlesOptions = {
     }
 }
 
-class App extends Component() {
+class App extends Component {
     constructor(){
         super();
         this.state = {
@@ -35,21 +35,21 @@ class App extends Component() {
     }
 
     render(){
-      return (
-        <div className="App">
-            <Particles className='particles'
-                  params={particlesOptions}
-            />
-            <Navigation/>
-            <Logo />
-            <Rank />
-            <ImageLinkForm
-                onInputChange={this.onInputChange}
-                onButtonSubmit={this.onButtonSubmit}
-            />
-            {/*<FaceRecognition />*/}
-        </div>
-      );
+        return (
+            <div className="App">
+                <Particles className='particles'
+                      params={particlesOptions}
+                />
+                <Navigation/>
+                <Logo />
+                <Rank />
+                <ImageLinkForm
+                    onInputChange={this.onInputChange}
+                    onButtonSubmit={this.onButtonSubmit}
+                />
+                {/*<FaceRecognition />*/}
+            </div>
+        );
     }
 }
 
