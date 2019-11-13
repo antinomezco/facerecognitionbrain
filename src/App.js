@@ -39,6 +39,7 @@ class App extends Component {
         const image = document.getElementById('inputImage');
         const width = Number(image.width);
         const height = Number(image.height);
+        console.log('width, height');
         console.log(width, height);
     }
 
